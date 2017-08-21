@@ -6,69 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Landscape in a frame</title>
   <style>
-    /* source: http://codepen.io/chris22smith/pen/PbBwjp */
     html {
-      background-image:linear-gradient(#eee, #aaa);
-      height:100%;
       font-family: monospace;
-    }
-
-    img {
-      border:solid 2px;
-      border-bottom-color:#ffe;
-      border-left-color:#eed;
-      border-right-color:#eed;
-      border-top-color:#ccb;
-      max-height:100%;
-      max-width:100%;
     }
 
     .container {
       width: 100%;
       text-align: center;
-    }
-
-    .frame {
-      background-color:#ddc;
-      border:solid 5vmin #eee;
-      border-bottom-color:#fff;
-      border-left-color:#eee;
-      border-radius:2px;
-      border-right-color:#eee;
-      border-top-color:#ddd;
-      box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
-      box-sizing:border-box;
-      display:inline-block;
-      margin:5vh 10vw 10vh 10vw;
-      height:60vh;
-      padding:4vmin;
-      position:relative;
-      text-align:center;
-    }  
-    .frame:before {
-      border-radius:2px;
-      bottom:-2vmin;
-      box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
-      content:"";
-      left:-2vmin;
-      position:absolute;
-      right:-2vmin;
-      top:-2vmin;
-    }
-    .frame:after {
-      border-radius:2px;
-      bottom:-2.5vmin;
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
-      content:"";
-      left:-2.5vmin;
-      position:absolute;
-      right:-2.5vmin;
-      top:-2.5vmin;
-    }
-    @media (max-width: 500px) {
-      .frame {
-        height: 30vh;
-      }
     }
   </style>
 </head>
@@ -77,11 +21,8 @@
 
 <div class="container">
   <h1>99 loc procedural landscape</h1>
-  <p>Come back in one minute for a new one.</p>
+  <p>Sorry, I shut the generator down for environmental reasons, source is still available.</p>
   <p>Source: <a href="https://github.com/rap2hpoutre/landscape">https://github.com/rap2hpoutre/landscape</a></p>	
-  <div class="frame">
-    <img src="https://html2pdf.raph.site/static/landscape.png" alt="landscape" />
-  </div>
 </div>
 
 </body>
